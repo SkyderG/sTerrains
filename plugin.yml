@@ -1,0 +1,6 @@
+name: "sTerrains"
+version: "0.0.1"
+author: "Skyder <Skyder#6351>"
+
+main: Terrains\Loader
+api: [4.0.0]

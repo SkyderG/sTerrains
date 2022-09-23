@@ -1,0 +1,22 @@
+---
+map.to.clone: "worldtest"
+
+prices:
+  150x150: 3000
+  200x200: 3500
+  250x250: 4000
+
+messages:
+  island.help.command: "Island Help: {n}/island {n}/island help {n}/island upgrade"
+
+  island.generated: "Your island has been generated."
+  island.have.one: "You have an island."
+  island.no.have: "You do not have an island."
+  island.must.to.be: "You need to be on the island to use this command."
+  island.its.already: "You are already on your island."
+
+  island.full.upgrade: "Your island is full upgraded."
+  island.upgrade.success: "You upgraded your island to {0}x{0}, -${1}"
+  island.border_limit: "You reached the island border limit, upgrade before and try again."
+  island.no_money_upgrade: "No money to upgrade your island."
+...
