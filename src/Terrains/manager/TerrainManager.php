@@ -140,7 +140,6 @@ class TerrainManager
     public function isValidPosition(Player $player, Position $position): bool
     {
         if (!isset($this->localData[$player->getName()])) return false;
-        $data = $this->localData[$player->getName()];
 
         $server = $player->getServer();
         $worldManager = $server->getWorldManager();
